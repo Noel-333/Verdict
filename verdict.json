@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "version": "0.1.0-alpha",
+    "algorithm": "sha256"
+  },
+  "data": [
+    {
+      "file": "G:\\GITHUB\\Verdict\\.gitignore",
+      "hash": "26869a5adbce51fbe14beb1b6c60670eff03664087053543ca273de3dee5d050"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\CONTRIBUTING.zh.md",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\README.md",
+      "hash": "f9eee102dee426bca3ddf7cecb269cfde7be6163641d1bbd222a00ea648f74b2"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\README.zh.md",
+      "hash": "ecaebe8f9bc760e6c1403fabc3a81fe369a34019db1893d0007472b3aa7350b3"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\cmd\\check.go",
+      "hash": "d8ab73f21f46261cca6e725569fd7dd1716ab9d271e4b6c634efed2a983727f0"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\cmd\\init.go",
+      "hash": "66307c0765865d3efa1104a948d5591d6b7853a7b3c36aadee9828938155d25f"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\cmd\\root.go",
+      "hash": "562017ce89661c729601d17f3539f3afc6205df7a873a9e4f66934101669db4f"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\cmd\\snapshot.go",
+      "hash": "89c17f7ccbb14b8547d0bad8b270ffc17f85c12e814435fd3869aafd336e6322"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\cmd\\verdict\\main.go",
+      "hash": "fe35c05011b19e5fe3f1ff5d9e0b2199f7cb046037f34915932cdf97c670fa45"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\go.mod",
+      "hash": "ab9f8db2e1417b01e97e956a7bbcad7c131b4a9d5299d2018b63400244a9ac98"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\go.sum",
+      "hash": "aa580671f8796190ae2d412790942d638ad57b6120fbdb586b8207b2192964f6"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\internal\\shared.go",
+      "hash": "93055019cd4805f95c1a218c2e7cd678226a93218ff646a77f5cbf3f9789530a"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\internal\\version\\version.go",
+      "hash": "9d74002822e27a1a01d64d460e512896bd05fe89dec95f24a77e9c088f95a66e"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\main.go",
+      "hash": "a29b569d95207e925105fa73254f7ffa8d15f8566c3623f98c0aad7db8d81a8b"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\pkg\\exec\\check.go",
+      "hash": "24b35a52ca466a41aaa23031a8759ac93cc3fc81a4e0642f4a17ad1f91b6d2d7"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\pkg\\exec\\init.go",
+      "hash": "b794804b9b4c11038f3df3aec97c482f55bdc13c9b08f5e0b5769d6d4d459baa"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\pkg\\exec\\snapshot.go",
+      "hash": "bce7b19bfb11a59f8848ce2bbfd30253d2ac229ad9b9444b023f23be6c131836"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\pkg\\exec\\type.go",
+      "hash": "847d7515a912ba2cd71e847febe3a2135e3708756bc363c941ceea0068c4082a"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\pkg\\infra\\fs\\fs.go",
+      "hash": "afcecf04000aca54d47218b3453946dd3556984949eaa9330196211685e44d44"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\pkg\\infra\\hasher\\hasher.go",
+      "hash": "2f1d85b785fe639d18e44f00472a70ae922ab12f6012a14b6a2741c9302c6e26"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\pkg\\infra\\hasher\\sha256.go",
+      "hash": "7bbfbb900537bf30235df581dce74e05e1da4ca6142bd9f7b2337cebc19fbfe1"
+    }
+  ]
+}
