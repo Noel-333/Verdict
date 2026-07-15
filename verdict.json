@@ -5,8 +5,120 @@
   },
   "data": [
     {
+      "file": "G:\\GITHUB\\Verdict\\.git\\COMMIT_EDITMSG",
+      "hash": "32ca56b16d497bbfb5789cf52aba9fd679b42f09786031555f8c122c1c3abb63"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\.git\\FETCH_HEAD",
+      "hash": "da5e112332eb49901e37d71545133e299cbe76b7448427698db3b216c89cbd54"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\.git\\HEAD",
+      "hash": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\.git\\config",
+      "hash": "55f937c7e88b024db2a7e68b146dfd4ba27e19f704b9917d868881dc100a8644"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\.git\\description",
+      "hash": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\.git\\hooks\\applypatch-msg.sample",
+      "hash": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\.git\\hooks\\commit-msg.sample",
+      "hash": "efc1401b0e99d1ff51494d154d98b46c1e99059bcd8bf9f73cecde19fd3eb23b"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\.git\\hooks\\fsmonitor-watchman.sample",
+      "hash": "9159720099ad5595b8e66645cbfd47763c1e920f46e0b50ae75e642bbec57ef0"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\.git\\hooks\\post-update.sample",
+      "hash": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\.git\\hooks\\pre-applypatch.sample",
+      "hash": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\.git\\hooks\\pre-commit.sample",
+      "hash": "57185b7b9f05239d7ab52db045f5b89eb31348d7b2177eab214f5eb872e1971b"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\.git\\hooks\\pre-merge-commit.sample",
+      "hash": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\.git\\hooks\\pre-push.sample",
+      "hash": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\.git\\hooks\\pre-rebase.sample",
+      "hash": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\.git\\hooks\\pre-receive.sample",
+      "hash": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\.git\\hooks\\prepare-commit-msg.sample",
+      "hash": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\.git\\hooks\\push-to-checkout.sample",
+      "hash": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\.git\\hooks\\sendemail-validate.sample",
+      "hash": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\.git\\hooks\\update.sample",
+      "hash": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\.git\\index",
+      "hash": "062936113bd432745f0c5e69293f33ec50d647a2f11658aa70b9b7c9551f4faf"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\.git\\info\\exclude",
+      "hash": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\.git\\logs\\HEAD",
+      "hash": "090b653f5c44dc75784edee561c7d2a9c9102458e01e44358235836ad0536fdb"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\.git\\logs\\refs\\heads\\main",
+      "hash": "090b653f5c44dc75784edee561c7d2a9c9102458e01e44358235836ad0536fdb"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\.git\\logs\\refs\\remotes\\origin\\HEAD",
+      "hash": "7dfa6f09fc1aec2d7945bb5c24f220b0c0a90ac416336a535b26ac5cecb8eacf"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\.git\\logs\\refs\\remotes\\origin\\main",
+      "hash": "e81a442b3572a2e7c4d3f655d7974fc5116a4eb8eaa4762fa1bb817eb3d40c51"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\.git\\refs\\heads\\main",
+      "hash": "a5b0c84b3032d63b127d3233352b30d02670bcf8b26ca790843b5121c4b97610"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\.git\\refs\\remotes\\origin\\HEAD",
+      "hash": "2bb6a24aa0fc6c484100f5d51a29bbad841cd2c755f5d93faa204e5dbb4eb2b4"
+    },
+    {
+      "file": "G:\\GITHUB\\Verdict\\.git\\refs\\remotes\\origin\\main",
+      "hash": "a5b0c84b3032d63b127d3233352b30d02670bcf8b26ca790843b5121c4b97610"
+    },
+    {
       "file": "G:\\GITHUB\\Verdict\\.gitignore",
-      "hash": "26869a5adbce51fbe14beb1b6c60670eff03664087053543ca273de3dee5d050"
+      "hash": "ff70b7b372cf42f5fd19fa7d6e869608120bda4f0edf882d31435e0c5ea2a2d7"
     },
     {
       "file": "G:\\GITHUB\\Verdict\\CONTRIBUTING.zh.md",
@@ -18,7 +130,7 @@
     },
     {
       "file": "G:\\GITHUB\\Verdict\\README.zh.md",
-      "hash": "ecaebe8f9bc760e6c1403fabc3a81fe369a34019db1893d0007472b3aa7350b3"
+      "hash": "4739b93e6eb7bd8d39527f7fc48b051bc7c587a05a51f22e3ac09f646ce0ff53"
     },
     {
       "file": "G:\\GITHUB\\Verdict\\cmd\\check.go",
@@ -70,7 +182,7 @@
     },
     {
       "file": "G:\\GITHUB\\Verdict\\pkg\\exec\\snapshot.go",
-      "hash": "bce7b19bfb11a59f8848ce2bbfd30253d2ac229ad9b9444b023f23be6c131836"
+      "hash": "29db7ba8c1ef76b99e36fedac5f4c940c63f2afa6cd48ce044b77fbcfa51b563"
     },
     {
       "file": "G:\\GITHUB\\Verdict\\pkg\\exec\\type.go",

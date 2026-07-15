@@ -35,11 +35,11 @@ func Snapshot() {
 			return nil
 		}
 
-		if !d.IsDir() {
-			snapshot_path = append(snapshot_path, path)
+		if d.IsDir() {
 			return nil
 		}
 
+		snapshot_path = append(snapshot_path, path)
 		return nil
 	})
 
@@ -58,8 +58,8 @@ func Snapshot() {
 
 		file, err := f.Open(path)
 		if err != nil {
-			color.Red("failed to open file `%s` :%s", path, err)
-			return
+			color.Yellow("failed to open file :%v", err)
+			continue
 		}
 
 		result := h.Hash(file)
@@ -67,6 +67,8 @@ func Snapshot() {
 		Hash_result = append(Hash_result, FileEntry{File: file.Name(), Hash: result})
 
 	}
+
+	color.Green("snapshot succeeded")
 
 	m := Manifest{
 		Meta: struct {
