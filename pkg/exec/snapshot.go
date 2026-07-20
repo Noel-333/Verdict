@@ -67,9 +67,11 @@ func process() error {
 			continue
 		}
 
+		relPath, err := filepath.Rel(Wd, file.Name())
+
 		result := h.Hash(file)
 
-		Hash_result = append(Hash_result, FileEntry{File: file.Name(), Hash: result})
+		Hash_result = append(Hash_result, FileEntry{File: relPath, Hash: result})
 
 	}
 
