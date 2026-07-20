@@ -5,7 +5,6 @@
 
   **Verdict是一个基于Golang开发的CLI工具，使用Cobra框架，能够方便的随包部署、随包验证文件哈希。目前支持的算法：**
 - *SHA-256*
-- *xxHash*
 
 Verdict不能替代密码学工具，仅作为软件发布、验证文件损坏的便捷辅助工具
 
@@ -65,4 +64,8 @@ snapshot succeeded
 ```
 vec check
 D:\MyCompressed Pack\a.exe:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+```
+最佳实现：将vec.exe打包进文件夹中，并附check.bat
+```bat
+.\vec check
 ```
