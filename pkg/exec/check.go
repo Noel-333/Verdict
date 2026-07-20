@@ -59,7 +59,7 @@ func CheckData() {
 		k, err := f.Open(j[i].File)
 
 		if err != nil {
-			color.Red("file %s not exists :")
+			color.Red("file %s not exists :", j[i].File)
 		} else {
 			out := h.Hash(k)
 			if out == j[i].Hash {

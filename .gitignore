@@ -2,4 +2,4 @@
 *.exe
 
 # 忽略测试文件
-./verdict.json
+*.json
