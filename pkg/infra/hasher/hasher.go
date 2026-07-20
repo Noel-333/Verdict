@@ -6,7 +6,7 @@ import (
 )
 
 var (
-	SupportedAlgo = []string{"sha256"}
+	SupportedAlgo = []string{"sha256", "xxhash"}
 )
 
 type Hasher interface {
@@ -17,6 +17,8 @@ func New(hasherType string) (Hasher, error) {
 	switch hasherType {
 	case "sha256":
 		return &SHA256Hasher{}, nil
+	case "xxhash":
+		return &XxhashHasher{}, nil
 	default:
 		if hasherType == "" {
 			return &SHA256Hasher{}, nil
