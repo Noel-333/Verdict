@@ -20,14 +20,19 @@ func Snapshot() {
 
 		var input string
 		fmt.Scanln(&input)
-		if input == "y" || input == "Y" {
-			color.Green("")
+		if input == "y" || input == "Y" || process() == nil {
+			if process() == nil {
+				color.Green("snapshot succeeded")
+			}
 		} else {
-			color.Red("")
+			color.Red("snapshot stopped")
 		}
 
 	}
 
+}
+
+func process() error {
 	var snapshot_path []string //snapshot处理的目录
 
 	filepath.WalkDir(Wd, func(path string, d iofs.DirEntry, err error) error {
@@ -46,7 +51,7 @@ func Snapshot() {
 	h, err := hasher.New(internal.SnapshotAValue)
 	if err != nil {
 		color.Red("failed to initialize hasher:%v", err)
-		return
+		return err
 	}
 
 	var Hash_result []FileEntry
@@ -68,8 +73,6 @@ func Snapshot() {
 
 	}
 
-	color.Green("snapshot succeeded")
-
 	m := Manifest{
 		Meta: struct {
 			Version   string "json:\"version\""
@@ -84,13 +87,13 @@ func Snapshot() {
 	j, err := json.MarshalIndent(m, "", "  ")
 	if err != nil {
 		color.Red("failed to marshal:%v", err)
-		return
+		return err
 	}
 
 	err = f.Create("verdict.json")
 	if err != nil {
 		color.Red("failed to create verdict.json:%v", err)
-		return
+		return err
 	}
 
 	file, err := f.Open("verdict.json")
@@ -102,5 +105,5 @@ func Snapshot() {
 	if n == 0 || err != nil {
 		color.Red("failed to write to verdict.json:%v", err)
 	}
-
+	return nil
 }
