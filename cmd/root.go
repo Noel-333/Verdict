@@ -10,7 +10,7 @@ import (
 
 var rootCmd = &cobra.Command{
 	Use:     "vec",
-	Short:   "Vec is short for verdict,is a CLI tool used to verify file integrity.",
+	Short:   "Vec is short for verdict,is a CLI tool used to verify file integrity.For detailed documentation, please refer to https://github.com/Noel-333/Verdict/",
 	Version: version.Version,
 }
 

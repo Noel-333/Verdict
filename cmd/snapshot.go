@@ -14,7 +14,8 @@ func init() {
 var AValue string
 
 var snapshotCmd = &cobra.Command{
-	Use: "snapshot",
+	Use:   "snapshot",
+	Short: "Running the snapshot will generate a hash snapshot in the running directory and save it to verdict.json",
 	Run: func(cmd *cobra.Command, args []string) {
 		internal.SnapshotAValue, _ = cmd.Flags().GetString("algo")
 		if internal.SnapshotAValue == "" {
