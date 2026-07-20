@@ -41,3 +41,27 @@ vec snapshot
 ```
 注意，如果不指定算法，默认值为`sha256`。
 此外，没有权限访问的文件将被略过。
+
+## 示例
+
+```
+D:.
+  MyCompressed Pack
+   └─a.exe
+```
+
+### 配置脚本
+```
+D:\MyCompressed Pack>vec init
+verdict initialized successfully
+D:\MyCompressed file>vec snapshot
+verdict.json already exists. Continue? [Y/N]
+y
+snapshot succeeded
+```
+### 用户脚本
+
+```
+vec check
+D:\MyCompressed Pack\a.exe:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+```
