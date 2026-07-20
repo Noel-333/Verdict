@@ -12,7 +12,7 @@ func init() {
 
 var checkCmd = &cobra.Command{
 	Use:   "check",
-	Short: "TODO: 什么都还没写呢",
+	Short: "Run check to verify file integrity according to the verdict.json",
 	Run: func(cmd *cobra.Command, args []string) {
 		if exec.CheckMeta() {
 			exec.CheckData()
